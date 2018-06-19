@@ -19,7 +19,7 @@ end
 
 def now_serving(katz_deli)
   if katz_deli = []
-    string = "The line is currently empty."
+    string = "There is nobody waiting to be served!"
   else string = "Now serving #{katz_deli.unshift}"
   end
   puts string
