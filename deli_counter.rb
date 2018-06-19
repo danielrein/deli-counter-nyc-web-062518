@@ -19,9 +19,8 @@ end
 
 def now_serving(katz_deli)
   if katz_deli = []
-    string = "There is nobody waiting to be served!"
+    puts "There is nobody waiting to be served!"
   else
-    string = "Currently serving #{katz_deli.unshift}"
+    puts = "Currently serving #{katz_deli.unshift}"
   end
-  puts string
 end
